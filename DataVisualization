@@ -1,0 +1,24 @@
+getwd()
+setwd()
+setwd("/Users/aranz/Desktop/ANS 198 R Labs")
+list.files()
+dogs = readRDS("dogs_full (1).rds")
+dogs
+ncol(dogs)
+nrow(dogs)
+dim(dogs)
+colnames(dogs)
+rownames(dogs)
+str(dogs)
+head(dogs)
+head(dogs)10
+head(dogs,10)
+summary(dogs)
+?mean(dogs)
+?median
+?sd
+?var
+dogs$height
+sd(dogs$height)
+sd(dogs$height, na.rm = TRUE)
+table(dogs$group)
